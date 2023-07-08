@@ -5,14 +5,13 @@ body {
 
 header{
     display: flex;
-    padding: 0, 16px;
+    padding: 0 16px;
 }
 
 header h1 {
     margin: 0;
     font-size: 22px;
     line-height: 64px;
-
 }
 
 .sp-menu {
@@ -44,6 +43,7 @@ main {
     padding: 64px;
     opacity: 0;
     pointer-events: none;
+    transition: opacity .6s;
 }
 
 .overlay.show {
