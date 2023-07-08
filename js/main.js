@@ -1,4 +1,4 @@
-// 'use strict';
+'use strict';
 
 {
     const open = document.getElementById('open');
@@ -14,6 +14,4 @@
         overlay.classList.remove('show');
         open.classList.remove('hide');
     });
-
-
 }
